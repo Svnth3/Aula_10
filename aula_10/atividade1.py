@@ -1,3 +1,7 @@
+import random
+import os
+os.system('cls')
+
 
 def adicionar(n1, n2): 
     resultado = n1 + n2
@@ -19,9 +23,8 @@ def multiplicar(n1, n2):
     return resultado
 
 
-numero1 = float(input("Informe o primeiro número: "))
-numero2 = float(input("Informe o segundo número: "))
-
+numero1 = random.randint(1, 1000)
+numero2 = random.randint(1, 1000)
 
 soma = adicionar(numero1, numero2)
 sub = subtrair(numero1, numero2)
