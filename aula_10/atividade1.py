@@ -23,14 +23,15 @@ def multiplicar(n1, n2):
     return resultado
 
 
-numero1 = random.randint(1, 1000)
-numero2 = random.randint(1, 1000)
+numero1 = random.randint(1, 100)
+numero2 = random.randint(1, 100)
 
 soma = adicionar(numero1, numero2)
 sub = subtrair(numero1, numero2)
 div = dividir(numero1, numero2)
 mult = multiplicar(numero1, numero2)
 
+print(f'os numeros gerados foram {numero1} e {numero2}')
 print(f'O resultado da soma é {soma}.')
 print(f'O resultado da subtação é {sub}.')
 print(f'O resultado da divisão é {div}.')
